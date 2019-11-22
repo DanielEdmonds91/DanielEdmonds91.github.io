@@ -56,3 +56,6 @@ a:active {
   box-shadow: none;
   top: 5px;
 }
+p {
+    color: black;
+}
