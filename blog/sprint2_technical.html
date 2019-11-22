@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS positioning </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Blog.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>What are the differences between relative, absolute, and fixed positioning?</h1>
+      <p>When talking about the different css properties for css its important to put things in a simple way for the reader to understand so I will be using my words to the best of my ability along with images to help demonstrate how positioning works in css</p>
+    
+    <h2>relative positioning</h2>
+      <img src="https://i.imgur.com/otpOyEY.png" alt="">
+      <p>Using relative positioning allows us to change the top,right,left, and bottom element relative to where it would be in the default or "static" postioning in html <br> 
+      in this example is will use relative postioning to push the child one element 10 pixels to the left relative to where it was for example</p>
+      <img src="https://i.imgur.com/KDiWYos.png" alt="Child 1 left">
+      <P>This is an uncommon way to position elements because it removes the element out of the document slow and makes it more difficult so position the other elements around it</P>
+      <hr>
+
+    <h2>Absolute positioning</h2>
+      <p>Absolute positioning positions an element without regard to any other elements . It is used to position elements anywhere on the page and not have any other elements interact with it </p>
+      <img src="https://i.imgur.com/yA4LYOi.png" alt="absolute position">
+      <p>In this image the child one element has had an absolute position applied to it. it looks like the child two element has been deleted but in actuality child two is sitting underneath child one <br>
+      as child one has been pulled out of the document flow and had its position placed detached from the other elements.</p>
+      <hr>
+
+    <h2>Fixed positioning</h2>
+    <P>Fixed positioning is similar to absolute positioning with the difference being its position is is in reference to the entire html document <br>
+    it also stays in that position of the page no matter where the user scrolls</P>
+    <img src="https://i.imgur.com/JfYLmF9.png" alt="Fixed position">
+    <p>In this image the child one element has been set to a fixed position. <br>
+    it is placed over the child three element because i have scrolled down slightly and instead of the elements staying in its position it following the position as i scrolled overlapping the child three element. </p>
+      
+    
+    
+
+
+  </body>
+ 
+  
+</html>
